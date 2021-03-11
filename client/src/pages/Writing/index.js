@@ -3,16 +3,16 @@ import { Grid, Header } from "semantic-ui-react";
 
 import "./style.css";
 
-class Music extends Component {
+class Writing extends Component {
     render() {
         return(
             <>
                 <Grid>
-                    <Header as="h1">Music</Header>
+                    <Header as="h1">Writing</Header>
                 </Grid>
             </>
         );
     }
 }
 
-export default Music;
+export default Writing;
